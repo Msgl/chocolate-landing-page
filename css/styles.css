@@ -61,6 +61,7 @@ Gold Mettalic #D1AC00;
   
   button:hover, input[type=submit]:hover{
     background-color:#CA3C25;
+    color: white;
   }
   
   /*~~~~~~~~~~~~~~~~~~~~~~HEADER & NAVBAR~~~~~~~~~~~~~~~~~~~~~~*/
@@ -74,7 +75,11 @@ Gold Mettalic #D1AC00;
     font-size:16px;
     text-align:left;
   }
-  
+
+  #nav-bar{
+    padding-top: 25px;
+  }
+
   #nav-bar a{
       color: white;
   /*     font-weight: 600; */
@@ -120,7 +125,7 @@ Gold Mettalic #D1AC00;
    transform: translate(-50%, -50%);
    background: rgba(0, 0, 0, 0.75); 
    padding:1%;
-   top: 50%;
+   top: 40%;
    left: 50%;
   }
   
@@ -183,6 +188,7 @@ Gold Mettalic #D1AC00;
   
   #subscribe button:hover{
     background-color:#CA3C25;
+    color: white;
   }
   
   #container-items{
@@ -244,7 +250,7 @@ Gold Mettalic #D1AC00;
   }
   
   .grid-contact-container{
-    width:50% ;
+    width:25%;
     margin:auto;
   }
   
