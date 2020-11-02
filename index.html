@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="css/styles.css">
     
-    <title>Document</title>
+    <title>Chocolate Subscription Box</title>
 </head>
 
 <body>
@@ -25,8 +25,8 @@
       
       <div id="banner-image">
         <div id="banner-text">
-           <h1>CHOCOLATE</h1>
-            <p>You can't beat chocolate.</p>
+           <h1>Chocolate</h1>
+            <h2>You can't beat chocolate.</h2>
           <button>Get Started</button>
         <button>Gift chocolate</button>
         </div>
@@ -36,19 +36,19 @@
         <h2 class="grid-item1">Here's how it works</h2>
         
         <div class="grid-item2">
-          <img src="https://img.icons8.com/dotty/80/000000/cat-profile.png" alt="">
+          <img src="https://img.icons8.com/dotty/80/000000/cat-profile.png" alt="" width="100" height="100">
           <h3>Fill out your profile</h3>
           <p>Tell us about your preferences and any allergies you might have.</p>
         </div>
         
         <div class="grid-item3">
-          <img src="https://img.icons8.com/dotty/80/000000/firework-explosion.png" alt="">
+          <img src="https://img.icons8.com/dotty/80/000000/firework-explosion.png" alt="" width="100" height="100">
            <h3>Receive personalized treats</h3>
            <p>Your monthly box will contain a mix of artisan and unique chocolate treats that we will carefully select just for you!</p>
         </div>
             
         <div class="grid-item4">
-         <img src="https://img.icons8.com/dotty/80/000000/wedding-gift.png" alt="">
+         <img src="https://img.icons8.com/dotty/80/000000/wedding-gift.png" alt="" width="100" height="100">
            <h3>Enjoy great perks and gifts</h3>
            <p>Each box will contain coupons & gift vouchers for you and your chocolate-addicted friends!</p>
         </div>
@@ -129,31 +129,29 @@
         <h2> Contact Form</h2>
         
         <div class="grid-contact-container">
-        <img src="https://img.icons8.com/dotty/80/000000/reading-confirmation.png" class="item-contact1" alt="" >
+        <img src="https://img.icons8.com/dotty/80/000000/reading-confirmation.png" class="item-contact1" alt="" width="100" height="100">
         
         <form id="form" class="item-contact2">
-          <label for="first-name"></label>
+          <label for="first-name" aria-label="Insert First Name"></label>
           <input type="text" id="first-name" placeholder="First name" name="firstname" required>
           
-          <label for="last-name"></label>
+          <label for="last-name" aria-label="Insert Last Name"></label>
           <input type="text" id="last-name" placeholder="Last name" name="lastname" required>
           
-          <label for="email"></label>
-          <input type="email" id="email" placeholder="Email" name="email" required>
+          <label for="email" aria-label="Insert Email"></label>
+          <input type="email" name="email" id="email" placeholder="Email"  required>
         
-          <label for="submit"></label>
-          <textarea name="message" placeholder="Write your message here." cols="30" rows="5" required></textarea>
-           <input type="submit" value="Submit" id="submit" name="email">
+          <label for="message"> Write your Message</label>
+          <textarea name="message" id="message" placeholder="write it here.." cols="30" rows="5" required></textarea>
+          
+          <input type="submit" value="Submit" id="submit" name="email">
         </form>
       </div>
       </div> 
       
       <footer>&#169;chocolate.
-      <br>
-      <br>
       
       <div class="footer-container">
-        
         <div>
           Images:
           <br> <a href="https://unsplash.com/"> Unsplash</a>
@@ -170,6 +168,6 @@
         
       </div>  
       </footer>
-    <script src="js/scripts.js"></script>
+
 </body>
 </html>
